@@ -47,4 +47,16 @@ th, td {
         padding: 10px;
     }
 }
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
 
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
